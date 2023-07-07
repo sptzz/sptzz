@@ -396,16 +396,20 @@ pre:active {
       <h2 id="JavaScript-day01"><a href="#JavaScript-day01" class="headerlink" title="JavaScript_day01"></a>JavaScript_day01</h2><h4 id="基本语法："><a href="#基本语法：" class="headerlink" title="基本语法："></a>基本语法：</h4><h5 id="页面弹出警示框"><a href="#页面弹出警示框" class="headerlink" title="页面弹出警示框"></a>页面弹出警示框</h5><pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">'你好，世界'</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>运行效果：</p>
+<p><img src="C:\Users\86188\AppData\Roaming\Typora\typora-user-images\image-20230704115122466.png" alt="image-20230704115122466"></p>
 <h5 id="使用JavaScript向输入内容"><a href="#使用JavaScript向输入内容" class="headerlink" title="使用JavaScript向输入内容"></a>使用JavaScript向<body>输入内容</h5><pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">document<span class="token punctuation">.</span><span class="token function">write</span><span class="token punctuation">(</span><span class="token string">'我是一段文字'</span><span class="token punctuation">)</span>
 document<span class="token punctuation">.</span><span class="token function">write</span><span class="token punctuation">(</span><span class="token string">'&lt;h1>我是一级标题&lt;/h1>'</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
 <p>运行效果：</p>
+<p><img src="C:\Users\86188\AppData\Roaming\Typora\typora-user-images\image-20230704122006805.png" alt="image-20230704122006805"></p>
 <h5 id="控制台调试，程序员自用"><a href="#控制台调试，程序员自用" class="headerlink" title="控制台调试，程序员自用"></a>控制台调试，程序员自用</h5><pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'看看对不对'</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>运行效果：</p>
+<p><img src="C:\Users\86188\AppData\Roaming\Typora\typora-user-images\image-20230704122517072.png" alt="image-20230704122517072"></p>
 <h5 id="显示一个对话框，对话框中显示一段文字，提示用户输入文字"><a href="#显示一个对话框，对话框中显示一段文字，提示用户输入文字" class="headerlink" title="显示一个对话框，对话框中显示一段文字，提示用户输入文字"></a>显示一个对话框，对话框中显示一段文字，提示用户输入文字</h5><pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token function">prompt</span><span class="token punctuation">(</span><span class="token string">'请输入你的姓名'</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>运行效果：</p>
+<p><img src="C:\Users\86188\AppData\Roaming\Typora\typora-user-images\image-20230704175929990.png" alt="image-20230704175929990"></p>
 <h5 id="变量初始化"><a href="#变量初始化" class="headerlink" title="变量初始化"></a>变量初始化</h5><pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token comment">// 声明一个变量并赋值</span>
 <span class="token keyword">let</span> age <span class="token operator">=</span> <span class="token number">18</span>
 <span class="token function">alert</span><span class="token punctuation">(</span>age<span class="token punctuation">)</span>
@@ -415,6 +419,7 @@ document<span class="token punctuation">.</span><span class="token function">wri
 <span class="token comment">//并不推荐如此连写</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>运行效果：</p>
+<p><img src="C:\Users\86188\AppData\Roaming\Typora\typora-user-images\image-20230705103656801.png" alt="image-20230705103656801"></p>
 <h5 id="变量命名规则与规范"><a href="#变量命名规则与规范" class="headerlink" title="变量命名规则与规范"></a>变量命名规则与规范</h5><p>规则：</p>
 <ol>
 <li>不能用JS内置的一些英语词汇，比如：for、if、let、var等等</li>
@@ -431,14 +436,14 @@ document<span class="token punctuation">.</span><span class="token function">wri
 <span class="token comment">// 打印数组的2号位(实际是数组的第三个元素)</span>
 document<span class="token punctuation">.</span><span class="token function">write</span><span class="token punctuation">(</span>arr<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
-
-
+<p>运行效果：</p>
+<p><img src="C:\Users\86188\AppData\Roaming\Typora\typora-user-images\image-20230705130833634.png" alt="image-20230705130833634"></p>
 <h5 id="常量"><a href="#常量" class="headerlink" title="常量"></a>常量</h5><pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token comment">// 常量，声明时必须赋值且不能更改</span>
 <span class="token keyword">const</span> <span class="token constant">G</span> <span class="token operator">=</span> <span class="token number">9.8</span>
 document<span class="token punctuation">.</span><span class="token function">write</span><span class="token punctuation">(</span><span class="token constant">G</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 
-
-
+<p>运行效果：</p>
+<p><img src="C:\Users\86188\AppData\Roaming\Typora\typora-user-images\image-20230706102411817.png" alt="image-20230706102411817"></p>
 <h5 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h5><pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token keyword">let</span> age <span class="token operator">=</span> <span class="token number">18</span>
 <span class="token comment">// 1.使用'+'号将字符串相连</span>
 document<span class="token punctuation">.</span><span class="token function">write</span><span class="token punctuation">(</span><span class="token string">'我今年'</span> <span class="token operator">+</span> age <span class="token operator">+</span> <span class="token string">'岁了'</span><span class="token punctuation">)</span>
@@ -446,23 +451,26 @@ document<span class="token punctuation">.</span><span class="token function">wri
 document<span class="token punctuation">.</span><span class="token function">write</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">我今年</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">$&#123;</span>age<span class="token interpolation-punctuation punctuation">&#125;</span></span><span class="token string">岁了</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span>
 <span class="token comment">// 两种方法均能实现</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-
-
+<p>运行效果：</p>
+<p><img src="C:\Users\86188\AppData\Roaming\Typora\typora-user-images\image-20230706114326273.png" alt="image-20230706114326273"></p>
 <h5 id="布尔类型"><a href="#布尔类型" class="headerlink" title="布尔类型"></a>布尔类型</h5><pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token comment">// 字面量只能是true或者false</span>
 <span class="token keyword">let</span> isCool <span class="token operator">=</span> <span class="token boolean">true</span>
 console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>isCool<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 
 <p>运行效果：</p>
+<p><img src="C:\Users\86188\AppData\Roaming\Typora\typora-user-images\image-20230706115454030.png" alt="image-20230706115454030"></p>
 <h5 id="未定义类型"><a href="#未定义类型" class="headerlink" title="未定义类型"></a>未定义类型</h5><pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token comment">// 凡是声明未赋值的变量默认值是undefined</span>
 <span class="token keyword">let</span> num
 console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 
 <p>运行效果：</p>
+<p><img src="C:\Users\86188\AppData\Roaming\Typora\typora-user-images\image-20230706115829928.png" alt="image-20230706115829928"></p>
 <h5 id="空类型"><a href="#空类型" class="headerlink" title="空类型"></a>空类型</h5><pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token comment">//表示给num赋值，但赋值为空</span>
 <span class="token keyword">let</span> num <span class="token operator">=</span> <span class="token keyword">null</span>
 console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 
 <p>运行效果：</p>
+<p><img src="C:\Users\86188\AppData\Roaming\Typora\typora-user-images\image-20230706144027010.png" alt="image-20230706144027010"></p>
 <h5 id="数据类型的检测"><a href="#数据类型的检测" class="headerlink" title="数据类型的检测"></a>数据类型的检测</h5><pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token comment">// typeof可以检测数据的类型</span>
 <span class="token keyword">let</span> num <span class="token operator">=</span> <span class="token number">8</span>
 console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token keyword">typeof</span> num<span class="token punctuation">)</span>
@@ -470,6 +478,7 @@ console<span class="token punctuation">.</span><span class="token function">log<
 console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token keyword">typeof</span> str<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>运行效果：</p>
+<p><img src="C:\Users\86188\AppData\Roaming\Typora\typora-user-images\image-20230706145251108.png" alt="image-20230706145251108"></p>
 <h5 id="数据类型隐式转换"><a href="#数据类型隐式转换" class="headerlink" title="数据类型隐式转换"></a>数据类型隐式转换</h5><pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token comment">// +号只要是左右两边任意有一个字符串，就会默认将相加操作视为字符串相加</span>
 console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token number">1</span> <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span>
 console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'sptz'</span> <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
@@ -485,6 +494,9 @@ console<span class="token punctuation">.</span><span class="token function">log<
 console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token keyword">typeof</span> <span class="token operator">+</span> <span class="token string">'123'</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 
 <p>运行效果：</p>
+<p><img src="C:\Users\86188\AppData\Roaming\Typora\typora-user-images\image-20230707152127982.png" alt="image-20230707152127982"></p>
+<p><img src="C:\Users\86188\AppData\Roaming\Typora\typora-user-images\image-20230707152730924.png" alt="image-20230707152730924"></p>
+<p><img src="C:\Users\86188\AppData\Roaming\Typora\typora-user-images\image-20230707153215856.png" alt="image-20230707153215856"></p>
 <h5 id="数据类型显式转换"><a href="#数据类型显式转换" class="headerlink" title="数据类型显式转换"></a>数据类型显式转换</h5><pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token comment">// Number(数据)可以将数据转换成数字型</span>
 <span class="token keyword">let</span> str <span class="token operator">=</span> <span class="token string">'345'</span>
 console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>str<span class="token punctuation">)</span>
@@ -507,6 +519,8 @@ console<span class="token punctuation">.</span><span class="token function">log<
 console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token function">parseFloat</span><span class="token punctuation">(</span><span class="token string">'ab12px'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>运行效果：</p>
+<p><img src="C:\Users\86188\AppData\Roaming\Typora\typora-user-images\image-20230707154106124.png" alt="image-20230707154106124"></p>
+<p>​		       <img src="C:\Users\86188\AppData\Roaming\Typora\typora-user-images\image-20230707160305554.png" alt="image-20230707160305554"></p>
 <h4 id="案例分析："><a href="#案例分析：" class="headerlink" title="案例分析："></a>案例分析：</h4><h5 id="输入用户名，再将其打印输出"><a href="#输入用户名，再将其打印输出" class="headerlink" title="输入用户名，再将其打印输出"></a>输入用户名，再将其打印输出</h5><pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token keyword">let</span> uname <span class="token operator">=</span> <span class="token function">prompt</span><span class="token punctuation">(</span><span class="token string">'请输入你的姓名'</span><span class="token punctuation">)</span>
 document<span class="token punctuation">.</span><span class="token function">write</span><span class="token punctuation">(</span>uname<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
@@ -525,7 +539,8 @@ document.write(num1, num2)<span aria-hidden="true" class="line-numbers-rows"><sp
 <span class="token keyword">let</span> num2 <span class="token operator">=</span> <span class="token operator">+</span><span class="token function">prompt</span><span class="token punctuation">(</span><span class="token string">'请输入第二个数'</span><span class="token punctuation">)</span>
 <span class="token function">alert</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">两个数相加的和为：</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">$&#123;</span>num1 <span class="token operator">+</span> num2<span class="token interpolation-punctuation punctuation">&#125;</span></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 
-<h4 id="综合案例"><a href="#综合案例" class="headerlink" title="综合案例"></a>综合案例</h4><h5 id="利用现学知识，实现表格订单确认"><a href="#利用现学知识，实现表格订单确认" class="headerlink" title="利用现学知识，实现表格订单确认"></a>利用现学知识，实现表格订单确认</h5><pre class="line-numbers language-markup" data-language="markup"><code class="language-markup"><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">></span></span>
+<h4 id="综合案例"><a href="#综合案例" class="headerlink" title="综合案例"></a>综合案例</h4><h5 id="利用现学知识，实现表格订单确认"><a href="#利用现学知识，实现表格订单确认" class="headerlink" title="利用现学知识，实现表格订单确认"></a>利用现学知识，实现表格订单确认</h5><p><img src="C:\Users\86188\AppData\Roaming\Typora\typora-user-images\image-20230707170856463.png" alt="image-20230707170856463"></p>
+<pre class="line-numbers language-markup" data-language="markup"><code class="language-markup"><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>zh-CN<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>UTF-8<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
