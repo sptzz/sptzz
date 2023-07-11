@@ -193,7 +193,7 @@
   const ipt = document.querySelector('#search-input')
   const btn = document.querySelector('#search-btn')
   const layer = document.querySelector('#search-layer')
-  const posts = JSON.parse(`[{"title":"JS学习笔记---day02","cover":"C:\\Windows\\System32\\sptzz.github.io\\themes\\hexo-theme-cola\\source\\imgs\\JS-02.webp","path":"2023/07/10/JS学习笔记---day02/"},{"title":"JS学习笔记---day01","path":"2023/07/07/index/"}]`)
+  const posts = JSON.parse(`[{"title":"JS学习笔记---day02","cover":"./imgs/JS-02.webp","path":"2023/07/10/JS学习笔记---day02/"},{"title":"JS学习笔记---day01","path":"2023/07/07/index/"}]`)
   ipt.addEventListener('keyup', e => {
     if (e.key === 'Enter') {
       handleSearch()
@@ -350,9 +350,9 @@
   <div class="index-left">
     
       <div class="index-article">
-        <!-- <img class="index-article--cover" src="C:\Windows\System32\sptzz.github.io\themes\hexo-theme-cola\source\imgs\JS-02.webp" alt=""> -->
+        <!-- <img class="index-article--cover" src="/./imgs/JS-02.webp" alt=""> -->
         <div class="index-article--box">
-          <img class="index-article--cover" data-cover="C:\Windows\System32\sptzz.github.io\themes\hexo-theme-cola\source\imgs\JS-02.webp" alt="">
+          <img class="index-article--cover" data-cover="./imgs/JS-02.webp" alt="">
         </div>
         <div class="index-article--content">
           <a href="/2023/07/10/JS%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0---day02/">JS学习笔记---day02 </a>
