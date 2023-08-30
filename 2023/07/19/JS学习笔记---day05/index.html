@@ -193,7 +193,7 @@
   const ipt = document.querySelector('#search-input')
   const btn = document.querySelector('#search-btn')
   const layer = document.querySelector('#search-layer')
-  const posts = JSON.parse(`[{"title":"JS学习笔记---day02","cover":"/imgs/JS-02.webp","path":"2023/07/10/JS学习笔记---day02/"},{"title":"JS学习笔记---day04","cover":"/imgs/JS-04.webp","path":"2023/07/16/JS学习笔记---day04/"},{"title":"JS学习笔记---day03","cover":"/imgs/JS-03.webp","path":"2023/07/12/JS学习笔记---day03/"},{"title":"JS学习笔记---day05","cover":"/imgs/JS-05.webp","path":"2023/07/19/JS学习笔记---day05/"},{"title":"JS学习笔记---day01","cover":"/imgs/JS-01.webp","path":"2023/07/07/index/"}]`)
+  const posts = JSON.parse(`[{"title":"JS学习笔记---day02","cover":"/imgs/JS-02.webp","path":"2023/07/10/JS学习笔记---day02/"},{"title":"JS学习笔记---day03","cover":"/imgs/JS-03.webp","path":"2023/07/12/JS学习笔记---day03/"},{"title":"JS学习笔记---day05","cover":"/imgs/JS-05.webp","path":"2023/07/19/JS学习笔记---day05/"},{"title":"JS学习笔记---day04","cover":"/imgs/JS-04.webp","path":"2023/07/16/JS学习笔记---day04/"},{"title":"JS学习笔记---day01","cover":"/imgs/JS-01.webp","path":"2023/07/07/index/"}]`)
   ipt.addEventListener('keyup', e => {
     if (e.key === 'Enter') {
       handleSearch()
@@ -426,7 +426,7 @@ obj<span class="token punctuation">.</span>hobby <span class="token operator">=<
 
 
 <h5 id="1-3-对象中的方法"><a href="#1-3-对象中的方法" class="headerlink" title="1.3 对象中的方法"></a>1.3 对象中的方法</h5><pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token keyword">let</span> obj <span class="token operator">=</span> <span class="token punctuation">&#123;</span>
-    <span class="token literal-property property">uname</span><span class="token operator">:</span> <span class="token string">'房东的猫'</span>
+    <span class="token literal-property property">uname</span><span class="token operator">:</span> <span class="token string">'房东的猫'</span><span class="token punctuation">,</span>
     <span class="token function-variable function">song</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
         console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'蝴蝶之夏'</span><span class="token punctuation">)</span>
     <span class="token punctuation">&#125;</span>
@@ -441,7 +441,7 @@ obj<span class="token punctuation">.</span><span class="token function">song</sp
 <span class="token keyword">let</span> arr <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">]</span>
 <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">let</span> k <span class="token keyword">in</span> arr<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
 	console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>k<span class="token punctuation">)</span><span class="token comment">//0,1,2,3 数组的索引号 但是是字符串类型</span>
-	console<span class="token punctuation">.</span><span class="token function">og</span><span class="token punctuation">(</span>arr<span class="token punctuation">[</span>k<span class="token punctuation">]</span><span class="token punctuation">)</span>
+	console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>arr<span class="token punctuation">[</span>k<span class="token punctuation">]</span><span class="token punctuation">)</span>
 <span class="token punctuation">&#125;</span><span class="token comment">//但是不推荐这种方法遍历数组</span>
 
 <span class="token comment">//遍历对象</span>
